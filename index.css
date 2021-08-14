@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+@font-face { font-family: organo; src: url('fonts/Organo.ttf'); } 
+
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+header{
+    background-image: url('images/heroimage.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{ 
+  font-family: nunito;
+  font-weight: bold;
+  font-size: 24px;
+  float:right; 
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #F39AC0; 
+  padding: 15px;
+}
+
+ul li a :hover {
+  color: black;
+}
+.logo img { 
+  float: left; 
+  width: 78.43px; 
+  height: auto;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.main {
+  max-width: 1300px;
+  margin:auto;
+}
+
+.title{
+  position: absolute; 
+  width: 746px;
+  height: 96px;
+  left: 6.51%;
+  top: 280px;
+  font-family: organo;
+  color: #F39AC0; 
+  font-size: 60px;
+}
+
+.slogan{
+  position: absolute;
+  left: 6.51%;
+  right: 36.37%;
+  top: 230px;
+  bottom: 36.57%;
+
+  font-family: NoirStd-Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 51px;
+}
+
+.des {
+  position: absolute;
+  width: 525px;
+  height: 53px;
+  left: 6.51%;
+  top: 400px;
+
+  font-family: Nunito;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 33px;
+  color: #F39AC0;
+
+}
+
+.button { 
+  position: absolute;
+  top: 500px;
+  display: inline-block;
+  left: 6.51%;
+  
+}
+
+
+#study {
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 14px;
+  font-size: 18px;
+  font-family: Nunito;
+  background-color: #F39AC0;
+  border: none;
+  outline: none;
+  color:white;
+  font-weight: bold;
+
+}
+
+#water {
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 14px;
+  font-size: 18px;
+  font-family: Nunito;
+  background-color: #89D5E6;
+  border: none;
+  outline: none;
+  color:white;
+  font-weight: bold;
+
+}
