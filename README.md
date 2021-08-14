@@ -1,2 +1,2 @@
 # Nestling 
-A scuffed app DO NOT RESIZE stuff will go wrong
+Submission for SUPERPOSITRON! I think I may have spent too much time on Figma... 
