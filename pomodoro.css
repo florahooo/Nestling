@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+@font-face { font-family: organo; src: url('fonts/Organo.ttf'); } 
+
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+ul{ 
+    font-family: nunito;
+    font-weight: bold;
+    font-size: 24px;
+    float:right; 
+    list-style-type: none;
+    margin-top: 50px;
+  }
+  
+  ul li {
+    display: inline-block;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #F39AC0; 
+    padding: 15px;
+  }
+  
+  ul li a :hover {
+    color: black;
+  }
+  .logo img { 
+    float: left; 
+    width: 78.43px; 
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .main {
+    max-width: 1300px;
+    margin:auto;
+  }
+
+  .time {
+    font-family: organo;
+    color: #F39AC0; 
+    font-size: 120px; 
+    position: absolute;
+    width: 489px;
+    height: 159px;
+    left: 500px;
+    top: 270px;
+    
+  }
+
+#pause {
+    position: absolute;
+    left: 48%;
+    right: 45.04%;
+    top: 26.71%;
+    bottom: 69.98%;
+    color: #F39AC0; 
+}
+#play {
+    position: absolute;
+    left: 45%; 
+    right: 51.4%;
+    top: 26.59%;
+    bottom: 69.88%;
+    color: #F39AC0; 
+}
+
+.button { 
+    position: absolute;
+    top: 450px;
+    display: inline-block;
+    left: 35%;
+    
+  }
+#short {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 14px;
+    font-size: 18px;
+    font-family: Nunito;
+    background-color: #F39AC0;
+    border: none;
+    outline: none;
+    color:white;
+    font-weight: bold;
+  
+  }
+
+  #long {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 14px;
+    font-size: 18px;
+    font-family: Nunito;
+    background-color: #F39AC0;
+    border: none;
+    outline: none;
+    color:white;
+    font-weight: bold;
+  
+  }
+
+  
