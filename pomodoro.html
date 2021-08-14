@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pomodoro.css"/>  
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class= "main">
+            <div class ="logo">
+                <img src= "images/Logo.png"> 
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="pomodoro.html">Pomodoro</a></li>
+                <li><a href="water.html">Water</a></li>
+                <li id= achieve><a href="achievements.html">Achievements</a></li>
+            </ul>
+            <div class="time" id="countdown">25:00</div>
+            <span class="material-icons" style="font-size: 48px;" id= play onclick="setInterval(countdownupdate, 1000);">play_arrow</span>
+            <span class="material-icons" style="font-size: 48px;" id= pause onclick="let pauseflag = true;">pause</span>
+            <div class="button">
+                <button id=short >Short Break</button>
+                <button id=long>Long Break</button>
+            </div>
+        </div>
+ 
+    </header>
+    <script src= 'pomodoro.js'></script>
+</body>
+</html>
