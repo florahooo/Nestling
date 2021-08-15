@@ -1,2 +1,2 @@
 # Nestling 
-Submission for SUPERPOSITRON! I think I may have spent too much time on Figma... 
+Submission for SUPERPOSITRON!
