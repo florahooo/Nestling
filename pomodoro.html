@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="pomodoro.css"/>  
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <title>Document</title>
+    <title>Nestling | Pomodoro</title>
 </head>
 <body>
     <header>
@@ -23,8 +23,8 @@
                 <li id= achieve><a href="achievements.html">Achievements</a></li>
             </ul>
             <div class="time" id="countdown">25:00</div>
-            <span class="material-icons" style="font-size: 48px;" id= play onclick="setInterval(countdownupdate, 1000);">play_arrow</span>
-            <span class="material-icons" style="font-size: 48px;" id= pause onclick="let pauseflag = true;">pause</span>
+            <span class="material-icons" style="font-size: 48px;" id= play onclick="playcountdown();">play_arrow</span>
+            <span class="material-icons" style="font-size: 48px;" id= pause onclick= pausecountdown();>pause</span>
             <div class="button">
                 <button id=short >Short Break</button>
                 <button id=long>Long Break</button>
