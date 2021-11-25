@@ -11,3 +11,4 @@ Things that... NEED FIXING
 - fonts not loading on different devices??? 
 - unorganized syntax 
 - timer is strange O_O 
+- THIS IS SO OLD HELP ITS SO BAD
